@@ -46,7 +46,9 @@ export default class TouchAction {
     }
     this.actions = value.toLowerCase().trim();
   }
-
+  get(value) {
+    return value;
+  }
   /**
    * @private
    * just re-set the touchAction value

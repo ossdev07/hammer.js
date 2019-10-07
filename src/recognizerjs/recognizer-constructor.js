@@ -81,6 +81,9 @@ export default class Recognizer {
     this.manager && this.manager.touchAction.update();
     return this;
   }
+  get(options) {
+    return options;
+  }
 
   /**
    * @private
